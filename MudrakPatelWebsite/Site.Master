@@ -16,16 +16,17 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+                <div class="navDiv">
+                    <div class="logoDiv">M</div>
+                    <div class="linkDiv">Home</div>
+                    <div class="linkDiv">Contact</div>
+                    <div class="linkDiv">Projects</div>
+                    <div class="linkDiv">Services</div>
+                </div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            <div class="navDiv">
-                <div class="linkDiv"></div>
-                <div class="linkDiv"></div>
-                <div class="linkDiv"></div>
-                <div class="linkDiv"></div>
-            </div>
+
         </asp:ContentPlaceHolder>
-    </div>
+    
     </form>
     <!-- Scripts Section -->
     <script src="Scripts/jquery-2.2.4.min.js"></script>
