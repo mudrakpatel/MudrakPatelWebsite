@@ -21,7 +21,7 @@
             </div>
             <div class="ButtonsDiv">
                 <asp:Button runat="server" CssClass="SendButton" Text="Send" ID="SendButton" OnClick="SendButton_Click" />
-                <asp:Button runat="server" CssClass="ClearButton" Text="Clear" ID="ClearButton" OnClick="ClearButton_Click" />                
+                <asp:Button runat="server" CssClass="ClearButton" Text="Clear" ID="ClearButton" OnClick="ClearButton_Click" />
             </div>
         </div>
     </div>
