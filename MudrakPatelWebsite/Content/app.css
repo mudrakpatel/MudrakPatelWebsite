@@ -12,7 +12,7 @@
     font-family:Verdana;
     margin-left:3px;
     margin-right:20px;
-    margin-top:4.5px;
+    margin-top:5.5px;
     margin-bottom:2px;
     border:3px solid black;
     text-align:center;
@@ -35,5 +35,62 @@
     margin-right:auto;
     background-color:lightgreen;
     align-self:center;
-    
+    height:190px;
+}
+
+.AlignerDiv{
+    margin-right:auto;
+    margin-left:480px;
+    margin-top:40px;
+}
+
+.SendButton{
+    background-color:#cac6c6;
+    color:black;
+    border:2px solid #110f0f;
+    -webkit-margin-top-collapse: separate; 
+    margin-top:8px;
+}
+
+.SendButton:hover{
+    background-color:black;
+    color:#cac6c6;
+    border:2px solid #cac6c6;
+}
+
+.ClearButton{
+    background-color:#cac6c6;
+    color:black;
+    border:2px solid #110f0f;
+    -webkit-margin-top-collapse: separate; 
+    margin-top:8px;
+}
+
+.ClearButton:hover{
+    background-color:black;
+    color:#cac6c6;
+    border:2px solid #cac6c6;
+}
+
+.InputTextBox{
+        width:255px;
+}
+
+.InputTextBox:hover{
+    border:0.5px solid blue;
+}
+
+.ButtonsDiv{
+    margin-left:140px;
+    margin-right:auto;
+    vertical-align:middle;
+}
+
+.AboutMeDiv{
+    border:3px solid black;
+    border-radius:5px 5px 5px 5px;
+    margin-top:10px;
+    height:400px;
+    margin-left:5px;
+    margin-right:5px;
 }

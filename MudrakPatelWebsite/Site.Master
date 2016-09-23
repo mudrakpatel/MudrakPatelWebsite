@@ -17,11 +17,11 @@
 <body>
     <form id="form1" runat="server">
                 <div class="navDiv">
-                    <div class="logoDiv">M</div>
-                    <div class="linkDiv">Home</div>
-                    <div class="linkDiv">Contact</div>
-                    <div class="linkDiv">Projects</div>
-                    <div class="linkDiv">Services</div>
+                    <div class="logoDiv" id="logoDiv">MUDRAK PATEL</div>
+                    <div class="linkDiv" id="HomeDiv" ><a href="Default.aspx">Home</a></div>
+                    <div class="linkDiv" id="ContactDiv" ><a href="Contact.aspx">Contact</a></div>
+                    <div class="linkDiv" id="ProjectsDiv" ><a href="#">Projects</a></div>
+                    <div class="linkDiv" id="ServicesDiv"><a href="#">Services</a></div>
                 </div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
 
