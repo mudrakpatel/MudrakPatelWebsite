@@ -28,7 +28,7 @@ namespace MudrakPatelWebsite
             smtp.Port = 25;
             //smtp.Port = 465;
             //smtp.Port = 587;
-            //smtp.Credentials = new System.Net.NetworkCredential("testpurposemudrak@gmail.com","Mudrak@123");
+            smtp.Credentials = new System.Net.NetworkCredential("testpurposemudrak@gmail.com","Mudrak@123");
             try
             {
                 smtp.Send(emailMessage);
