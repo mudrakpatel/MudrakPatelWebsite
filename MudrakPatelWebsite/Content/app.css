@@ -20,6 +20,15 @@
     float:left;
 }
 
+.linkDiv:hover {
+    text-decoration:none;
+    border-color:crimson;
+    background-color:lightyellow;
+    transition-property:border-color;
+    transition-delay:0.1s;
+    transition-duration:0.2s;
+}
+
 .logoDiv{
     font-family:'Century Gothic';
     color:darkslategrey;
@@ -42,7 +51,10 @@
 .AlignerDiv{
     margin-right:auto;
     margin-left:480px;
+    display:inline-block;
+    /*float:right;*/
     margin-top:40px;
+    position:fixed;
 }
 
 .SendButton{
@@ -98,12 +110,27 @@
 
 .MyPhotoDiv{
     margin-left:2.5px;
-    margin-right:auto;
+    margin-right:0px;
     margin-top:2.5px;
     border:3px solid black;
     background:url(../Assets/images/myPhoto.jpg);
     background-size:228px 387px;
     background-repeat:no-repeat;
     height:387px;
-    width:630px;
+    width:230px;
+    display:inline-block;
+}
+
+.CodeImageDiv{
+    border:3px solid #33a6dd;
+    height:387px;
+    width:230px;
+    display:inline-block;
+    font-family:Verdana;
+    font-size:20px;
+    margin-top:-392px;
+    background:url(../Assets/images/AboutMeChild2Div.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-x:center;
 }
