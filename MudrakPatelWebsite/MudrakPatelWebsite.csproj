@@ -70,6 +70,7 @@
     <Content Include="Content\app.css" />
     <Content Include="Default.aspx" />
     <Content Include="packages.config" />
+    <Content Include="Projects.aspx" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\jquery-2.2.4.min.map" />
     <Content Include="Site.Master" />
@@ -119,6 +120,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Projects.aspx.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Projects.aspx.designer.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
