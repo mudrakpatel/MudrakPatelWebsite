@@ -23,6 +23,12 @@
                 <asp:Button runat="server" CssClass="SendButton" Text="Send" ID="SendButton" OnClick="SendButton_Click" />
                 <asp:Button runat="server" CssClass="ClearButton" Text="Clear" ID="ClearButton" OnClick="ClearButton_Click" />
             </div>
+            <div class="SocialMediaIcons">
+                <div class="SocialMediaChild" id="facebookLogoDiv"></div>
+                <div class="SocialMediaChild" id="linkedinLogoDiv"></div>
+                <div class="SocialMediaChild" id="disqusLogoDiv"></div>
+            </div>
         </div>
     </div>
+
 </asp:Content>

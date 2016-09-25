@@ -45,12 +45,12 @@
     margin-right:auto;
     background-color:lightgreen;
     align-self:center;
-    height:190px;
+    height:220px;
 }
 
 .AlignerDiv{
     margin-right:auto;
-    margin-left:480px;
+    margin-left:20px;
     display:inline-block;
     /*float:right;*/
     margin-top:40px;
@@ -133,4 +133,66 @@
     background-repeat:no-repeat;
     background-size:cover;
     background-position-x:center;
+}
+
+.ProjectsHeadingDiv{
+    border:3px solid black;
+    border-left:none;
+    margin-left:10px;
+    border-radius:5px 10px 10px 5px;
+    border-right-width:9px;
+    display:inline-block;
+    color:darkgray;
+    font-family:Verdana;
+    font-size:32.5px;
+    height:50px;
+    float:left;
+    margin-top:20px;
+    padding-right:5px;
+    transition: color 1s;
+    width:1337px;
+}
+
+.ProjectsHeadingDiv:hover{
+    color:#0eeadd;
+}
+
+.ProjectsChild1{
+    border:3px solid black;
+    display:inline-block;
+    padding-left:3px;
+    padding-right:3px;
+    padding-top:-20px;
+    height:48px;
+    font-size:30px;
+    margin-left:10px;
+    margin-top:5px;
+    border-left:0px;
+}
+ .ProjectsChild1 > a{
+     color:black;
+     font-family:Verdana;
+     font-size:30px;
+     text-decoration:none;
+ }
+
+ .ProjectsChild1:hover{
+     border-color:#304f09;
+     background-color:cyan;
+     color:red;
+ }
+
+.ProjectsLinkDiv{
+    float:left;
+    margin-top:3px;
+    margin-left:20px;
+}
+
+.SocialMediaIcons{
+    border:3px solid #2baaea;
+    padding:2px 2px 2px 2px;
+    border-radius:7px 7px 7px 7px;
+    height:40px;
+    width:auto;
+    margin-top:60px;
 }
