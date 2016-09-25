@@ -51,10 +51,10 @@
 .AlignerDiv{
     margin-right:auto;
     margin-left:20px;
-    display:inline-block;
+    display:inline;
     /*float:right;*/
     margin-top:40px;
-    position:fixed;
+    position:static;
 }
 
 .SendButton{
@@ -192,7 +192,35 @@
     border:3px solid #2baaea;
     padding:2px 2px 2px 2px;
     border-radius:7px 7px 7px 7px;
-    height:40px;
+    height:auto;
     width:auto;
-    margin-top:60px;
+    margin-top:40px;
+    margin-left:0px;
+    display:inline-block;
+}
+
+#facebookLogoDiv{
+    border:2px solid blue;
+    background-image:url(../Assets/images/facebookLogo.jpg);
+    height:50px;
+    width:50px;
+    display:inline-block;
+}
+
+#disqusLogoDiv{
+    border:2px solid blue;
+    background-image:url(../Assets/images/disqusLogo.jpg);
+    height:50px;
+    width:50px;
+    display:inline-block;
+    margin-top:0px;
+}
+
+#linkedinLogoDiv{
+    border:2px solid blue;
+    background-image:url(../Assets/images/linkedinLogo.jpg);
+    height:50px;
+    width:50px;
+    display:inline-block;
+    margin-top:0px;
 }
