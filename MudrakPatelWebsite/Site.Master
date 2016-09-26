@@ -21,7 +21,7 @@
                     <div class="linkDiv" id="HomeDiv" ><a href="Default.aspx">Home</a></div>
                     <div class="linkDiv" id="ContactDiv" ><a href="Contact.aspx">Contact</a></div>
                     <div class="linkDiv" id="ProjectsDiv" ><a href="Projects.aspx">Projects</a></div>
-                    <div class="linkDiv" id="ServicesDiv"><a href="#">Services</a></div>
+                    <div class="linkDiv" id="ServicesDiv"><a href="Services.aspx">Services</a></div>
                 </div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
 
