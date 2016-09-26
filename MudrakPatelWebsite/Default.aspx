@@ -16,8 +16,8 @@
             <div class="hobbiesChild">Athletics</div>
             <div class="hobbiesChild">Music</div>
         </div>
-        <div class="myAimDiv">
-            Aiming to work at MARVEL
+        <div class="myDreamDiv">
+            &lt;&lt;Dream&gt;&gt; To work at MARVEL studios
         </div>
     </div>
 </asp:Content>
