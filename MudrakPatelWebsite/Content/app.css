@@ -132,22 +132,67 @@
     height:387px;
     font-family:Verdana;
     color:black;
-    font-size:25px;
+    font-size:35px;
     padding:2px 2px 2px 2px;
     text-align:left;
     border-left:0px;
+    text-align:left;
 }
 
 .quoteDiv{
-    height:100px;
-    width:100px;
+    height:387px;
+    width:240px;
     border:3px solid black;
     border-left:0px;
     border-radius:5px 5px 5px 5px;
     display:inline-block;
     vertical-align:top;
+    margin-top:3.3px;
+    color:black;
+    font-family:Verdana;
+    font-size:35px;
+}
+
+.myHobbiesDiv{
     height:387px;
     width:240px;
+    border:3px solid black;
+    border-left:0px;
+    border-radius:5px 5px 5px 5px;
+    display:inline-block;
+    vertical-align:top;
+    margin-top:3.3px;
+    color:black;
+    font-family:Verdana;
+    font-size:30px;
+}
+.hobbiesChild{
+    height:auto;
+    width:230px;
+    border:2px solid #007acc;
+    margin-top:9px;
+    color:white;
+    background-color:#007acc;
+    border-radius:0px 20px 20px 0px;
+    font-size:35px;
+    transition-property:border-color, background-color;
+    transition-delay:0.001s;
+    transition-duration:0.9s;
+}
+
+.hobbiesChild:hover{
+    border:2px solid #5b297e;
+    background-color:#5b297e;
+}
+
+.myAimDiv{
+    height:387px;
+    width:240px;
+    border:3px solid black;
+    border-left:0px;
+    border-radius:5px 5px 5px 5px;
+    display:inline-block;
+    vertical-align:top;
     margin-top:3.3px;
     color:black;
     font-family:Verdana;
@@ -160,7 +205,7 @@
     margin-left:10px;
     border-radius:5px 10px 10px 5px;
     border-right-width:9px;
-    display:inline-block;
+    display:;
     color:darkgray;
     font-family:Verdana;
     font-size:32.5px;
@@ -169,7 +214,13 @@
     margin-top:20px;
     padding-right:5px;
     transition: color 1s;
-    width:1337px;
+    width:1330px;
+}
+
+@media(max-width:1329px){
+    .ProjectsHeadingDiv{
+        width:auto;
+    }
 }
 
 .ProjectsHeadingDiv:hover{
@@ -185,9 +236,16 @@
     height:48px;
     font-size:30px;
     margin-left:10px;
-    margin-top:5px;
+    margin-top:20px;
     border-left:0px;
 }
+@media(max-width:720px){
+    #otherProjectsLinkDiv{
+    margin-bottom:500px;
+    }
+}
+
+
  .ProjectsChild1 > a{
      color:black;
      font-family:Verdana;
