@@ -18,24 +18,37 @@ namespace MudrakPatelWebsite
 
         protected void SendButton_Click(object sender, EventArgs e)
         {
-            MailMessage emailMessage = new MailMessage();
-            emailMessage.To.Add("testpurposemudrak@gmail.com");
-            emailMessage.From = new MailAddress(EmailIDTextBox.Text);
-            emailMessage.Subject = "Email from " + FirstNameTextBox.Text + " " + LastNameTextBox.Text;
-            emailMessage.Body = EmailBodyTextBox.Text;
-            SmtpClient smtp = new SmtpClient();
-            smtp.Host = "smtp.gmail.com";
-            smtp.Port = 25;
-            //smtp.Port = 465;
-            //smtp.Port = 587;
-            smtp.Credentials = new System.Net.NetworkCredential("testpurposemudrak@gmail.com","Mudrak@123");
+            System.Net.Mail.MailMessage emailMessage = new System.Net.Mail.MailMessage();
+            emailMessage.To.Add("mudrakpatel02@gmail.com");
+            emailMessage.From = new MailAddress("testpurposemudrak@gmail.com", "Mudrak@123", System.Text.Encoding.UTF8);
+            emailMessage.Subject = "Mail From Your PortFolio";
+            emailMessage.SubjectEncoding = System.Text.Encoding.UTF8;
+            emailMessage.Body = "Message from "+ FirstNameTextBox.Text
+                                    +" "+ LastNameTextBox.Text ;
+            emailMessage.BodyEncoding = System.Text.Encoding.UTF8;
+            emailMessage.IsBodyHtml = true;
+            emailMessage.Priority = MailPriority.High;
+            SmtpClient client = new SmtpClient();
+            client.Credentials = new System.Net.NetworkCredential("testpurposemudrak@gmail.com", "Mudrak@123");
+            client.Port = 587;
+            client.Host = "smtp.gmail.com";
+            client.EnableSsl = true;
             try
             {
-                smtp.Send(emailMessage);
+                client.Send(emailMessage);
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Email Sent Successfully')", true);
+                FirstNameTextBox.Text = String.Empty;
+                LastNameTextBox.Text = String.Empty;
             }
-            catch (Exception sendException)
+            catch (Exception ex)
             {
-                EmailBodyTextBox.Text = sendException.StackTrace;
+                Exception ex2 = ex;
+                string errorMessage = string.Empty;
+                while (ex2 != null)
+                {
+                    errorMessage += ex2.ToString();
+                    ex2 = ex2.InnerException;
+                }
             }
         }
 

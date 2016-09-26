@@ -103,7 +103,7 @@
     border:3px solid black;
     border-radius:5px 5px 5px 5px;
     margin-top:10px;
-    height:400px;
+    height:auto;
     margin-left:5px;
     margin-right:5px;
 }
@@ -113,6 +113,7 @@
     margin-right:0px;
     margin-top:2.5px;
     border:3px solid black;
+    border-left:0px;
     background:url(../Assets/images/myPhoto.jpg);
     background-size:228px 387px;
     background-repeat:no-repeat;
@@ -121,18 +122,36 @@
     display:inline-block;
 }
 
-.CodeImageDiv{
-    border:3px solid #33a6dd;
-    height:387px;
-    width:230px;
+.AboutMeTextDiv{
+    border:3px solid black;
+    border-radius:5px 5px 5px 5px;
     display:inline-block;
+    vertical-align:top;
+    margin-top:3.3px;   
+    width:240px;
+    height:387px;
     font-family:Verdana;
-    font-size:20px;
-    margin-top:-392px;
-    background:url(../Assets/images/AboutMeChild2Div.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position-x:center;
+    color:black;
+    font-size:25px;
+    padding:2px 2px 2px 2px;
+    text-align:left;
+    border-left:0px;
+}
+
+.quoteDiv{
+    height:100px;
+    width:100px;
+    border:3px solid black;
+    border-left:0px;
+    border-radius:5px 5px 5px 5px;
+    display:inline-block;
+    vertical-align:top;
+    height:387px;
+    width:240px;
+    margin-top:3.3px;
+    color:black;
+    font-family:Verdana;
+    font-size:25px;
 }
 
 .ProjectsHeadingDiv{
