@@ -224,3 +224,36 @@
     display:inline-block;
     margin-top:0px;
 }
+
+#emailLogoDiv{
+    border:2px solid blue;
+    background-image:url(../Assets/images/emailLogo.jpg);
+    height:50px;
+    width:50px;
+    display:inline-block;
+    margin-top:0px;
+}
+
+.contactInfo{
+    border:2px solid blue;
+    display:normal;
+    font-family:Verdana;
+    color:#064b4b;
+    font-size:28px;
+    height:auto;
+    margin-top:7px;
+    -webkit-margin-top-collapse:separate;
+    align-content:center;
+    border-radius:5px 5px 5px 5px;
+    width:auto;
+    background-color:#b5e1ba;
+    transition-property:border, color, background-color;
+    transition-duration:1.5s;
+    transition-delay:0.9s;
+}
+
+.contactInfo:hover{
+    border:2px solid #064b4b;
+    color:blue;
+    background-color:white;
+}

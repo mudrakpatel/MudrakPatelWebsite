@@ -23,13 +23,25 @@
                 <asp:Button runat="server" CssClass="SendButton" Text="Send" ID="SendButton" OnClick="SendButton_Click" />
                 <asp:Button runat="server" CssClass="ClearButton" Text="Clear" ID="ClearButton" OnClick="ClearButton_Click" />
             </div>
-            
+
         </div>
         <div class="SocialMediaIcons">
-                <a href="https://www.facebook.com/people/Mudrak-Patel/100012863100841"><div id="facebookLogoDiv"></div></a>
-                <a href="https://ca.linkedin.com/in/mudrak-patel-895964112"><div id="linkedinLogoDiv"></div></a>
-                <a href="https://disqus.com/by/mudrakpatel/"><div id="disqusLogoDiv"></div></a>
-            </div>
-    </div>
-
+            <a href="https://www.facebook.com/people/Mudrak-Patel/100012863100841">
+                <div id="facebookLogoDiv"></div>
+            </a>
+            <a href="https://ca.linkedin.com/in/mudrak-patel-895964112">
+                <div id="linkedinLogoDiv"></div>
+            </a>
+            <a href="https://disqus.com/by/mudrakpatel/">
+                <div id="disqusLogoDiv"></div>
+            </a>
+            <a href="mailto:testpurposemudrak@gmail.com" onclick="javascript:window.location.href='mailto:testpurposemudrak@gmail.com'; return true;">
+                <div id="emailLogoDiv"></div>
+            </a>
+        </div>
+        <div class="contactInfo">
+            &nbsp;&nbsp;Phone no.: +1 437 333 9353&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            mudrakpatel96@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            mudrakpatel02@gmail.com
+        </div>
 </asp:Content>
