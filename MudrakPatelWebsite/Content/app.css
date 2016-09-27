@@ -334,3 +334,197 @@
     color:blue;
     background-color:white;
 }
+
+.html5Div{
+    border:3px solid #f1662b;
+    padding:2px 2px 2px 2px;
+    border-radius:5px 5px 5px 5px;
+    width:110px;
+    margin-top:6px;
+    margin-left:6px;
+    display:inline-block;
+    color:#f1662b;
+}
+
+.html5ImageDiv{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    background-image:url(../Assets/images/html5Logo.jpg);
+}
+
+.html5TextDiv{
+    width:100px;
+    height:auto;
+    font-family:Verdana;
+    font-size:20px;
+    text-align:center;
+    border:2px solid #f1662b;
+}
+
+.cssDiv{
+    border:3px solid #3c9cd8;
+    padding:2px 2px 2px 2px;
+    border-radius:5px 5px 5px 5px;
+    width:110px;
+    margin-top:6px;
+    margin-left:6px;
+    display:inline-block;
+    color:#3c9cd8;
+}
+
+.cssImageDiv{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    background-image:url(../Assets/images/css3Logo.jpg);
+}
+
+.cssTextDiv{
+    width:100px;
+    height:auto;
+    font-family:Verdana;
+    font-size:20px;
+    text-align:center;
+    border:2px solid #3c9cd8;
+}
+
+.javascriptDiv{
+    border:3px solid #7ebf00;
+    padding:2px 2px 2px 2px;
+    border-radius:5px 5px 5px 5px;
+    width:119px;
+    margin-top:6px;
+    margin-left:6px;
+    display:inline-block;
+    color:#7ebf00;
+    align-content:center;
+}
+
+.javascriptImageDiv{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    background-image:url(../Assets/images/javascriptLogo.jpg);
+}
+
+.javascriptTextDiv{
+    width:109px;
+    height:auto;
+    font-family:Verdana;
+    font-size:20px;
+    text-align:center;
+    border:2px solid #7ebf00;
+}
+
+.csharpDiv{
+    border:3px solid #ed1c24;
+    padding:2px 2px 2px 2px;
+    border-radius:5px 5px 5px 5px;
+    width:110px;
+    margin-top:6px;
+    margin-left:6px;
+    display:inline-block;
+    color:#ed1c24;
+    align-content:center;
+}
+
+.csharpImageDiv{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    background-image:url(../Assets/images/csharpLogo.jpg);
+}
+
+.csharpTextDiv{
+    width:100px;
+    height:auto;
+    font-family:Verdana;
+    font-size:20px;
+    text-align:center;
+    border:2px solid #ed1c24;
+}
+
+.javaDiv{
+    border:3px solid #bd6428;
+    padding:2px 2px 2px 2px;
+    border-radius:5px 5px 5px 5px;
+    width:110px;
+    margin-top:6px;
+    margin-left:6px;
+    display:inline-block;
+    color:#bd6428;
+    align-content:center;
+}
+
+.javaImageDiv{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    background-image:url(../Assets/images/javaLogo.jpg);
+}
+
+.javaTextDiv{
+    width:100px;
+    height:auto;
+    font-family:Verdana;
+    font-size:20px;
+    text-align:center;
+    border:2px solid #bd6428;
+}
+
+.sqlDiv{
+    border:3px solid #e97b00;
+    padding:2px 2px 2px 2px;
+    border-radius:5px 5px 5px 5px;
+    width:110px;
+    margin-top:6px;
+    margin-left:6px;
+    display:inline-block;
+    color:#e97b00;
+    align-content:center;
+}
+
+.sqlImageDiv{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    background-image:url(../Assets/images/sqlLogo.jpg);
+}
+
+.sqlTextDiv{
+    width:100px;
+    height:auto;
+    font-family:Verdana;
+    font-size:20px;
+    text-align:center;
+    border:2px solid #e97b00;
+}
+
+.aspnetDiv{
+    border:3px solid #3f48cc;
+    padding:2px 2px 2px 2px;
+    border-radius:5px 5px 5px 5px;
+    width:110px;
+    margin-top:6px;
+    margin-left:6px;
+    display:inline-block;
+    color:#3f48cc;
+    align-content:center;
+}
+
+.aspnetImageDiv{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    background-image:url(../Assets/images/aspnet.jpg);
+}
+
+.aspnetTextDiv{
+    width:100px;
+    height:auto;
+    font-family:Verdana;
+    font-size:20px;
+    text-align:center;
+    border:2px solid #3f48cc;
+}

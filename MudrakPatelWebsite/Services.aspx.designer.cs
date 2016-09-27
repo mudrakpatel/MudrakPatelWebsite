@@ -7,11 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MudrakPatelWebsite
-{
-
-
-    public partial class Services
-    {
+namespace MudrakPatelWebsite {
+    
+    
+    public partial class Services {
     }
 }
