@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="AboutMeDiv">
         <div class="MyPhotoDiv">
-            <img src="Assets/images/myPhoto.jpg" alt="Mudrak's image"/>
+            <!--<img src="Assets/images/myPhoto.jpg" alt="Mudrak's image"/>-->
         </div>
         <div class="AboutMeTextDiv">
             Hi there! I'm Mudrak and I'm awesome! I love coding
