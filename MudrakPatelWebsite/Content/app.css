@@ -52,7 +52,6 @@
     margin-right:auto;
     margin-left:20px;
     display:inline;
-    /*float:right;*/
     margin-top:40px;
     position:static;
 }
@@ -112,14 +111,19 @@
     margin-left:2.5px;
     margin-right:0px;
     margin-top:2.5px;
+    margin-bottom:2.5px;
     border:3px solid black;
     border-left:0px;
-    background-image:url("../Assets/images/myPhoto.jpg");
     background-size:227px 387px;
     background-repeat:no-repeat;
     height:387px;
     width:230px;
     display:inline-block;
+}
+
+.MyPhotoDiv > img{
+    height:380px;
+    width:227px;
 }
 
 .AboutMeTextDiv{
@@ -278,7 +282,6 @@
 
 #facebookLogoDiv{
     border:2px solid blue;
-    background-image:url(../Assets/images/facebookLogo.jpg);
     height:50px;
     width:50px;
     display:inline-block;
@@ -286,7 +289,6 @@
 
 #disqusLogoDiv{
     border:2px solid blue;
-    background-image:url(../Assets/images/disqusLogo.jpg);
     height:50px;
     width:50px;
     display:inline-block;
@@ -295,7 +297,6 @@
 
 #linkedinLogoDiv{
     border:2px solid blue;
-    background-image:url(../Assets/images/linkedinLogo.jpg);
     height:50px;
     width:50px;
     display:inline-block;
@@ -304,7 +305,6 @@
 
 #emailLogoDiv{
     border:2px solid blue;
-    background-image:url(../Assets/images/emailLogo.jpg);
     height:50px;
     width:50px;
     display:inline-block;
@@ -350,7 +350,6 @@
     height:100px;
     width:100px;
     display:inline-block;
-    background-image:url(../Assets/images/html5Logo.jpg);
 }
 
 .html5TextDiv{
@@ -377,7 +376,6 @@
     height:100px;
     width:100px;
     display:inline-block;
-    background-image:url(../Assets/images/css3Logo.jpg);
 }
 
 .cssTextDiv{
@@ -405,7 +403,6 @@
     height:100px;
     width:100px;
     display:inline-block;
-    background-image:url(../Assets/images/javascriptLogo.jpg);
 }
 
 .javascriptTextDiv{
@@ -433,7 +430,6 @@
     height:100px;
     width:100px;
     display:inline-block;
-    background-image:url(../Assets/images/csharpLogo.jpg);
 }
 
 .csharpTextDiv{
@@ -461,7 +457,6 @@
     height:100px;
     width:100px;
     display:inline-block;
-    background-image:url(../Assets/images/javaLogo.jpg);
 }
 
 .javaTextDiv{
@@ -489,7 +484,6 @@
     height:100px;
     width:100px;
     display:inline-block;
-    background-image:url(../Assets/images/sqlLogo.jpg);
 }
 
 .sqlTextDiv{
@@ -517,7 +511,6 @@
     height:100px;
     width:100px;
     display:inline-block;
-    background-image:url(../Assets/images/aspnet.jpg);
 }
 
 .aspnetTextDiv{
