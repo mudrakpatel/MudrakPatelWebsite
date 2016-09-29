@@ -1,12 +1,5 @@
 ﻿<%@ Page Title="AboutMe" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MudrakPatelWebsite.Default" %>
 
-<!--
-    @author-> Mudrak Patel; 
-    @course-> COMP229 f2016; 
-    @Assignment 1; 
-    @Student ID-> 300878960
--->
-
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="AboutMeDiv">
         <div class="MyPhotoDiv"></div>
@@ -28,3 +21,9 @@
         </div>
     </div>
 </asp:Content>
+<!--
+    @author-> Mudrak Patel; 
+    @course-> COMP229 f2016; 
+    @Assignment 1; 
+    @Student ID-> 300878960
+-->
