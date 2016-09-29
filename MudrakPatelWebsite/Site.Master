@@ -1,5 +1,12 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MudrakPatelWebsite.Site" %>
 
+<!--
+    @author-> Mudrak Patel; 
+    @course-> COMP229 f2016; 
+    @Assignment 1; 
+    @Student ID-> 300878960
+-->
+
 <!DOCTYPE html>
 
 <html lang="en">

@@ -7,6 +7,13 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Net;
 
+/*
+    @author-> Mudrak Patel;
+    @course-> COMP229 f2016;
+    @Assignment 1; 
+    @Student ID-> 300878960
+*/
+
 namespace MudrakPatelWebsite
 {
     public partial class Contact : System.Web.UI.Page

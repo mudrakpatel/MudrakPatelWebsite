@@ -1,5 +1,12 @@
 ﻿<%@ Page Title="Services" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Services.aspx.cs" Inherits="MudrakPatelWebsite.Services" %>
 
+<!--
+    @author-> Mudrak Patel; 
+    @course-> COMP229 f2016; 
+    @Assignment 1; 
+    @Student ID-> 300878960
+-->
+
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="html5Div">
         <div class="html5ImageDiv"></div>
