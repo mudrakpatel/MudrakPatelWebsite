@@ -43,7 +43,7 @@
             <a href="https://disqus.com/by/mudrakpatel/">
                 <div id="disqusLogoDiv"></div>
             </a>
-            <a href="mailto:testpurposemudrak@gmail.com" onclick="javascript:window.location.href='mailto:testpurposemudrak@gmail.com'; return true;">
+            <a href="mailto:testpurposemudrak@gmail.com">
                 <div id="emailLogoDiv"></div>
             </a>
         </div>
