@@ -282,6 +282,7 @@
 }
 
 #facebookLogoDiv{
+    background-image:url(../Assets/images/facebookLogo.jpg);
     border:2px solid blue;
     height:50px;
     width:50px;
@@ -289,6 +290,7 @@
 }
 
 #disqusLogoDiv{
+    background-image:url(../Assets/images/disqusLogo.jpg);
     border:2px solid blue;
     height:50px;
     width:50px;
@@ -297,6 +299,7 @@
 }
 
 #linkedinLogoDiv{
+    background-image:url(../Assets/images/linkedinLogo.jpg);
     border:2px solid blue;
     height:50px;
     width:50px;
@@ -305,6 +308,7 @@
 }
 
 #emailLogoDiv{
+    background-image:url(../Assets/images/emailLogo.jpg);
     border:2px solid blue;
     height:50px;
     width:50px;
@@ -348,6 +352,7 @@
 }
 
 .html5ImageDiv{
+    background-image:url(../Assets/images/html5Logo.jpg);
     height:100px;
     width:100px;
     display:inline-block;
@@ -374,6 +379,7 @@
 }
 
 .cssImageDiv{
+    background-image:url(../Assets/images/css3Logo.jpg);
     height:100px;
     width:100px;
     display:inline-block;
@@ -401,6 +407,7 @@
 }
 
 .javascriptImageDiv{
+    background-image:url(../Assets/images/javascriptLogo.jpg);
     height:100px;
     width:100px;
     display:inline-block;
@@ -428,6 +435,7 @@
 }
 
 .csharpImageDiv{
+    background-image:url(../Assets/images/csharpLogo.jpg);
     height:100px;
     width:100px;
     display:inline-block;
@@ -455,6 +463,7 @@
 }
 
 .javaImageDiv{
+    background-image:url(../Assets/images/javaLogo.jpg);
     height:100px;
     width:100px;
     display:inline-block;
@@ -482,6 +491,7 @@
 }
 
 .sqlImageDiv{
+    background-image:url(../Assets/images/sqlLogo.jpg);
     height:100px;
     width:100px;
     display:inline-block;
@@ -509,6 +519,7 @@
 }
 
 .aspnetImageDiv{
+    background-image:url(../Assets/images/aspnet.jpg);
     height:100px;
     width:100px;
     display:inline-block;
