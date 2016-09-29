@@ -1,5 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="MudrakPatelWebsite.Contact" %>
 
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
 <!--
     @author-> Mudrak Patel; 
     @course-> COMP229 f2016; 
@@ -7,7 +9,6 @@
     @Student ID-> 300878960
 -->
 
-<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="ContactDiv">
         <div class="AlignerDiv">
             <div id="FirstNameDiv">
