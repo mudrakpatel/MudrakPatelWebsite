@@ -6,39 +6,63 @@
 */
 
 .navDiv{
-    border:3px solid black;
+    border-width:0px 3px 3px 3px;
+    background-color:#778899;
     margin-left:5px;
     margin-right:5px;
     height:48px;
-    border-radius:5px 5px 5px 5px;
+    border-radius:0px 0px 5px 5px;
 }
 
 .linkDiv{
-    color:black;
+    border:2.5px solid #232121;
+    color:white;
     width:68px;
-    background-color:white;
+    background-color:#778899;
     font-family:Verdana;
     margin-left:3px;
     margin-right:20px;
     margin-top:5.5px;
     margin-bottom:2px;
-    border:3px solid black;
     text-align:center;
     float:left;
+    
+}
+
+.linkDiv > a{
+    color:white;
 }
 
 .linkDiv:hover {
     text-decoration:none;
-    border-color:crimson;
-    background-color:lightyellow;
-    transition-property:border-color;
+    color:black;
+    background-color:white;
+    transition-property:color,background-color;
     transition-delay:0.1s;
     transition-duration:0.2s;
 }
 
+.linkDiv:hover > a{
+    text-decoration:none;
+    color:black;
+    background-color:white;
+    transition-property:color,background-color;
+    transition-delay:0.1s;
+    transition-duration:0.2s;
+}
+
+/*.linkDiv > a:visited{
+    text-decoration:none;
+    color:black;
+    background-color:white;
+    /*transition-property:color,background-color;
+    transition-delay:0.1s;
+    transition-duration:0.2s;
+}*/
+
 .logoDiv{
     font-family:'Century Gothic';
-    color:darkslategrey;
+    color:white;
     font-size:45px;
     margin-top:-13px;
     margin-bottom:3px;
@@ -257,6 +281,11 @@
     }
 }
 
+@media(max-width:1255px){
+    .allServices{
+        margin-left:50px;
+    }
+}
 
  .ProjectsChild1 > a{
      color:black;
@@ -539,4 +568,7 @@
     font-size:20px;
     text-align:center;
     border:2px solid #3f48cc;
+}
+.allServices{
+    margin-left:100px;
 }
