@@ -12,6 +12,6 @@
             Projects
         </div>
         <div class="ProjectsChild1"><a href="https://github.com/mudrakpatel">My Github</a></div>
-        <div class="ProjectsChild1" id="otherProjectsLinkDiv"><a href="http://assignment4comp125.azurewebsites.net/Projects.html">Other projects</a></div>
+        <div class="ProjectsChild1" id="otherProjectsLinkDiv"><a href="http://assignment4comp125.apphb.com/Projects.html">Other projects</a></div>
     </div>
 </asp:Content>
